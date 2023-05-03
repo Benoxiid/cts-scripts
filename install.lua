@@ -24,7 +24,7 @@ function prompt(text, ...)
     i = 1
     for k,v in pairs(arg) do
         print(string.format("%d. %v", i, v))
-        i++
+        i = i + 1
     end
 
     choice = io.read("*n")
