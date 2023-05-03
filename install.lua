@@ -32,5 +32,5 @@ function prompt(text, ...)
 end
 
 function run()
-    name = prompt("What program do you want to install ?", table.unpack(programs))
+    name = prompt("What program do you want to install ?")
 end
